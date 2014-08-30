@@ -15,8 +15,8 @@ and import main file jeet .styl file:
 See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/master/client/style/main.styl](https://github.com/juliancwirko/scotty/blob/master/client/style/main.styl)
 
 ### Deps actual versions
-- [https://github.com/mojotech/jeet](Jeet) 5.3.0
-- [https://github.com/jenius/rupture](Rupture) 0.3.1
+- [Jeet](https://github.com/mojotech/jeet) 5.3.0
+- [Rupture](https://github.com/jenius/rupture) 0.3.1
 
 ### Changelog
 
