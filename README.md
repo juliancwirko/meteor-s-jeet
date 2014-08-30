@@ -12,7 +12,7 @@ and import main file jeet .styl file:
 
 ````@import '../../.meteor/local/build/programs/web.browser/packages/juliancwirko:s-jeet'````
 
-See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/master/client/style/main.styl](https://github.com/juliancwirko/scotty/blob/master/client/style/main.styl)
+See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/master/client/style/style.styl](https://github.com/juliancwirko/scotty/blob/master/client/style/style.styl)
 
 ### Deps actual versions
 - [Jeet](https://github.com/mojotech/jeet) 5.3.0
@@ -20,4 +20,4 @@ See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/ma
 
 ### Changelog
 
-- 0.0.4 init
+- 0.0.5 init
