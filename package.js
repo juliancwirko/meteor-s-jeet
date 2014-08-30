@@ -1,15 +1,17 @@
 Package.describe({
   summary: 'Jeet (Stylus) grid system for Meteor. Especially for Scotty boilerplate.',
-  version: "0.0.2",
+  version: "0.0.4",
   name: 'juliancwirko:s-jeet'
-});
-
-Npm.depends({
-    'rupture': '0.3.1',
-    'jeet': '5.3.0'
 });
 
 Package.onUse(function(api) {
     api.use('stylus@1.0.3', ['client']);
-    api.addFiles('index.styl', ['client'], {isAsset: true});
+    api.addFiles([
+        'index.styl',
+        'rupture/index.styl',
+        'jeet/index.styl',
+        'jeet/_settings.styl',
+        'jeet/_functions.styl',
+        'jeet/_grid.styl'
+    ], 'client', {isAsset: true});
 });

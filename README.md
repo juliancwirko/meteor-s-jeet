@@ -13,3 +13,11 @@ and import main file jeet .styl file:
 ````@import '../../.meteor/local/build/programs/web.browser/packages/juliancwirko:s-jeet'````
 
 See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/master/client/style/main.styl](https://github.com/juliancwirko/scotty/blob/master/client/style/main.styl)
+
+### Deps actual versions
+- Jeet 5.3.0
+- Rupture 0.3.1
+
+### Changelog
+
+- 0.0.4 init
