@@ -1,6 +1,7 @@
 var fs = Npm.require('fs');
 var stylus = Npm.require('stylus');
 var nib = Npm.require('nib');
+var autoprefixer = Npm.require('autoprefixer-stylus');
 var jeet = Npm.require('jeet');
 var rupture = Npm.require('rupture');
 var path = Npm.require('path');
@@ -10,6 +11,7 @@ Plugin.registerSourceHandler("styl", {archMatching: 'web'}, function (compileSte
   var f = new Future;
   stylus(compileStep.read().toString('utf8'))
     .use(nib())
+    .use(autoprefixer())
     .use(jeet())
     .use(rupture())
     .set('filename', compileStep.inputPath)
