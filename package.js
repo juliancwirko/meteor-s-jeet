@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Jeet (Stylus) grid system for Meteor. Especially for Scotty boilerplate.',
-  version: "0.1.0",
+  version: "0.2.0",
   name: 'juliancwirko:s-jeet',
   git: 'https://github.com/juliancwirko/meteor-s-jeet.git'
 });

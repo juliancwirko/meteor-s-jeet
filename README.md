@@ -25,7 +25,30 @@ See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/ma
 - [Jeet](https://github.com/mojotech/jeet) 5.3.0
 - [Rupture](https://github.com/jenius/rupture) 0.4.0
 
+### Autoprefixer
+
+"Parse CSS and add vendor prefixes to rules by Can I Use" - [caniuse.com](http://caniuse.com)
+
+Demo:
+````
+.test
+    transform translateX(20%) 
+````
+
+Which compiles to:
+````
+.test {
+    -webkit-transform: translateX(20%);
+    -ms-transform: translateX(20%);
+    transform: translateX(20%);
+}
+````
+
+Always actual, based on Caniuse.com!
+
+
 ### Changelog
 
+- 0.2.0 now with Autoprefixer 
 - 0.1.0 better approach with compile plugin (based on the [Meteor Stylus package](https://github.com/meteor/meteor/tree/devel/packages/stylus))
 - 0.0.5 init
