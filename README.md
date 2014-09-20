@@ -4,9 +4,9 @@ only Stylus, because it is awesome ;) (no Scss)
 
 ### Usage
 
-You can use it without Scotty boilerplate. Just install it: 
+You can use it without Scotty boilerplate. Just install it:
 
-````meteor add juliancwirko:s-jeet```` 
+````meteor add juliancwirko:s-jeet````
 
 and import jeet and rupture .styl files (you can also add nib):
 
@@ -35,7 +35,7 @@ See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/ma
 Demo:
 ````
 .test
-    transform translateX(20%) 
+    transform translateX(20%)
 ````
 
 Which compiles to:
@@ -52,7 +52,8 @@ Always actual, based on Caniuse.com!
 
 ### Changelog
 
+- 0.2.2 Jeet version bump
 - 0.2.1 Jeet 6 on board
-- 0.2.0 now with Autoprefixer 
+- 0.2.0 now with Autoprefixer
 - 0.1.0 better approach with compile plugin (based on the [Meteor Stylus package](https://github.com/meteor/meteor/tree/devel/packages/stylus))
 - 0.0.5 init

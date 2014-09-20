@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Jeet (Stylus) grid system for Meteor. Especially for Scotty boilerplate.',
-  version: "0.2.1",
+  version: "0.2.2",
   name: 'juliancwirko:s-jeet',
   git: 'https://github.com/juliancwirko/meteor-s-jeet.git'
 });
@@ -11,11 +11,11 @@ Package._transitional_registerBuildPlugin({
   sources: [
     'plugin/compile-stylus.js'
   ],
-  npmDependencies: { 
+  npmDependencies: {
     'stylus': "0.48.1",
     'nib': "1.0.3",
     'autoprefixer-stylus': '0.3.0',
-    'jeet': "6.0.0",
+    'jeet': "6.1.2",
     'rupture': "0.4.0"
   }
 });
