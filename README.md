@@ -4,6 +4,9 @@ only Stylus, because it is awesome ;) (no Scss)
 
 ### Usage
 
+You don't need to install Meteor Stylus package it is absorbed by s-jeet.
+If you have it installed just uninstall it and install only s-jeet package.
+
 You can use it without Scotty boilerplate. Just install it:
 
 ````meteor add juliancwirko:s-jeet````
