@@ -52,6 +52,7 @@ Always actual, based on Caniuse.com!
 
 ### Changelog
 
+- 0.2.3 Stylus and Nib versions bump
 - 0.2.2 Jeet version bump
 - 0.2.1 Jeet 6 on board
 - 0.2.0 now with Autoprefixer
