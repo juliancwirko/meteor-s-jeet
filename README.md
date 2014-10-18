@@ -4,6 +4,9 @@ only Stylus, because it is awesome ;) (no Scss)
 
 ### Usage
 
+You don't need to install Meteor Stylus package it is absorbed by s-jeet.
+If you have it installed just uninstall it and install only s-jeet package.
+
 You can use it without Scotty boilerplate. Just install it:
 
 ````meteor add juliancwirko:s-jeet````
@@ -25,7 +28,7 @@ See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/ma
 - [Stylus](http://learnboost.github.io/stylus/) 0.48.1
 - [nib](http://visionmedia.github.io/nib/) 1.0.3
 - [autoprefixer-stylus](https://github.com/jenius/autoprefixer-stylus) 0.3.0
-- [Jeet](https://github.com/mojotech/jeet) 6.0.0
+- [Jeet](https://github.com/mojotech/jeet) 6.1.2
 - [Rupture](https://github.com/jenius/rupture) 0.4.0
 
 ### Autoprefixer
