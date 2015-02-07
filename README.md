@@ -29,9 +29,9 @@ See Scotty main .styl file here: [https://github.com/juliancwirko/scotty/blob/ma
 
 ### Awesome deps!
 
-- [Stylus](http://learnboost.github.io/stylus/) 0.49.3
-- [nib](http://visionmedia.github.io/nib/) 1.0.4
-- [autoprefixer-stylus](https://github.com/jenius/autoprefixer-stylus) 0.4.0
+- [Stylus](http://learnboost.github.io/stylus/) 0.50.0
+- [nib](http://visionmedia.github.io/nib/) 1.1.0
+- [autoprefixer-stylus](https://github.com/jenius/autoprefixer-stylus) 0.5.0
 - [Jeet](https://github.com/mojotech/jeet) 6.1.2
 - [Rupture](https://github.com/jenius/rupture) 0.6.1
 
@@ -59,6 +59,7 @@ Always actual, based on Caniuse.com!
 
 ### Changelog
 
+- 0.2.7 Stylus, Nib, Autoprefixer updates
 - 0.2.6 Autoprefixer and Rupture versions bump
 - 0.2.5 Stylus version bump
 - 0.2.4 Autoprefixer version bump
