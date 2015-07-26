@@ -61,6 +61,7 @@ Always actual, based on Caniuse.com!
 
 ### Changelog
 
+- 1.0.0 Stylus update; it is ready for 1.0.0
 - 0.2.9 Autoprefixer update
 - 0.2.8 Stylus, Autoprefixer updates
 - 0.2.7 Stylus, Nib, Autoprefixer updates
