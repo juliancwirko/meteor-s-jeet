@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Stylus with Jeet, Autoprefixer, Rupture and Nib for Meteor.',
-  version: '2.0.1',
+  version: '2.0.2',
   name: 'juliancwirko:s-jeet',
   git: 'https://github.com/juliancwirko/meteor-s-jeet.git'
 });
@@ -12,7 +12,7 @@ Package._transitional_registerBuildPlugin({
     'plugin/compile-stylus.js'
   ],
   npmDependencies: {
-    'stylus': '0.52.4',
+    'stylus': '0.53.0',
     'nib': '1.1.0',
     'autoprefixer-stylus': '0.8.1',
     'jeet': '6.1.2',
